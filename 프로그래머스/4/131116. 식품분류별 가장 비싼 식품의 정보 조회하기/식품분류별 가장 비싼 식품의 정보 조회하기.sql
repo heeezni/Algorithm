@@ -5,3 +5,4 @@ WHERE (CATEGORY, PRICE) IN
         WHERE CATEGORY IN ('과자','국','김치','식용유')
         GROUP BY CATEGORY)
 ORDER BY PRICE DESC;
+-- CATEGORY와 PRICE를 함께 비교하기
